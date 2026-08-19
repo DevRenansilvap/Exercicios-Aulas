@@ -1,0 +1,16 @@
+ALGORITMO
+    DECLARE:
+        SALARIO : NUMERICO
+        PORC_AUM : NUMERICO
+
+    ESCREVA("Digite o valor do salario:")
+    LEIA(SALARIO)
+    ESCREVA("Digite o valor da porcentagem de aumento:")
+    LEIA(PORC_AUM)
+
+    AUMENTO = (SALARIO * ( PORC_AUM /100)
+    NV_SALARIO = SALARIO + AUMENTO
+
+    ESCREVA("o aumento foi de ", AUMENTO , "o novo salario foi:",NV_SALARIO)
+
+FIM_DO_ALGORITMO
